@@ -2,8 +2,11 @@ package demo;
 
 import java.util.Date;
 
-public class Demo {
-	public static void main(String[] args) {
+import org.testng.annotations.Test;
+
+public class DemoTest{
+	@Test
+	public void demo() {
 		System.out.println("hi this is my first comment");
 
 		System.out.println("hi from second work space");
