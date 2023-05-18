@@ -1,5 +1,7 @@
 package demo;
 
+import java.util.Date;
+
 public class Demo {
 	public static void main(String[] args) {
 		System.out.println("hi this is my first comment");
@@ -10,6 +12,16 @@ public class Demo {
 		System.out.println("hi from original work space");
 
 		System.out.println("hi");
+		Date d=new Date();
+		System.out.println(d.toString());
+		
+		String arr[]=d.toString().split(" ");
+		String day=arr[2];
+		String month=arr[1];
+		String year=arr[5];
+		String time=arr[3];
+		System.out.println(day+" "+month+" "+year+" "+time);
+		
 }
 
 }
